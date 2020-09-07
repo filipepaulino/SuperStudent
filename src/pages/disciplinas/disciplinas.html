@@ -14,5 +14,26 @@
 </ion-header>
 
 <ion-content padding>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>
+        Disciplina Tal...
+      </ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>Informações da Disciplina</p>
+      <p>Nome do professor: Prof. Fulano</p>
+      <p>Média: Tal...</p>
+    </ion-card-content>
+  </ion-card>
 
+  <ion-fab right bottom>
+    <button ion-fab color="blue">
+      <ion-icon name="add"></ion-icon>
+    </button>
+    <ion-fab-list side="top">
+      <button ion-button id="fabbutton" round>Adicionar Disciplina</button>
+      <button ion-button id="fabbutton" round>Adicionar Nota</button>
+    </ion-fab-list>
+  </ion-fab>
 </ion-content>
