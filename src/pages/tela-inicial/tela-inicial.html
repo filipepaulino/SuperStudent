@@ -13,14 +13,49 @@
   </ion-navbar>
 </ion-header>
 
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>
+        Olá, aluno!
+      </ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Você ainda não tem atividades para fazer! (Aparecerá quando não houver atividades pendentes)
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>
+        Nome da Atividade
+      </ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>(Aparecerá quando houver atividades pendentes)</p>
+      <p>Nome da Disciplina</p>
+      <p>Data limite para realização</p>
+      <ion-list>
+          <ion-item>
+            <ion-label>Atividade feita?</ion-label>
+            <ion-checkbox disabled="false"></ion-checkbox>
+          </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+
+
 <ion-content padding>
-  
+
   <ion-fab right bottom>
-    <button ion-fab color="blue"> <ion-icon name="add"></ion-icon> </button>
-    <ion-fab-list side="top" >
-      <button ion-button id="fabbutton" round >Adicionar Tarefa</button>
-      <button ion-button id="fabbutton" round >Adicionar Disciplina</button>
-      <button ion-button id="fabbutton" round >Adicionar Nota</button>
+    <button ion-fab color="blue">
+      <ion-icon name="add"></ion-icon>
+    </button>
+    <ion-fab-list side="top">
+      <button ion-button id="fabbutton" round>Adicionar Tarefa</button>
+      <button ion-button id="fabbutton" round>Adicionar Disciplina</button>
+      <button ion-button id="fabbutton" round>Adicionar Nota</button>
     </ion-fab-list>
   </ion-fab>
 

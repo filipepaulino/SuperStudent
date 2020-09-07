@@ -15,6 +15,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class TelaInicialPage {
 
+  n:number = 1;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
